@@ -26,3 +26,9 @@ print(l[2])
 
 a, b, c = 1, 2, 3
 print(a,b,c)
+
+print(type(a))
+
+# car_color
+# carColor
+# car_Color

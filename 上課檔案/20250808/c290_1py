@@ -1,0 +1,8 @@
+s = '1234567'
+a = s[0:len(s):2]
+b = s[1:len(s):2]
+A, B = 0, 0
+A = sum([int(i) for i in a])
+B = sum([int(i) for i in b])
+
+print(abs(A-B))
